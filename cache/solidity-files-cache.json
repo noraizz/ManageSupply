@@ -1,0 +1,80 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/noraizabid/Desktop/ManageSupply/contracts/supply.sol": {
+      "lastModificationDate": 1659701362560,
+      "contentHash": "2a8a3070271653e2e428295ba8759717",
+      "sourceName": "contracts/supply.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBEP20",
+        "OptimusToken"
+      ]
+    },
+    "/Users/noraizabid/Desktop/ManageSupply/contracts/token.sol": {
+      "lastModificationDate": 1659701412039,
+      "contentHash": "81a749fadde806ddc00d66c670a5e7c9",
+      "sourceName": "contracts/token.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "BEP20",
+        "BEP20Detailed",
+        "Excalibur",
+        "IBEP20",
+        "SafeMath"
+      ]
+    }
+  }
+}
